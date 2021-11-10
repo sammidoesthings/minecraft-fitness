@@ -4,7 +4,7 @@ This is a personal project intended for fun only. The idea is to blend Lambda Sc
 
 Here is my lucid chart / scaffolding: https://lucid.app/lucidchart/fccc7ec6-f346-4ddb-9717-6e36fc366afd/edit?page=0_0&invitationId=inv_40f5d05a-2912-49b8-aec2-8373d72816aa#
 
-
+Unlike Lambda's build week in which they pair up students across different stages of their web development program, I will be attempting this solo build on my own.
 
 
 

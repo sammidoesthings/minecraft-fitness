@@ -1,21 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="../grassblock.png" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is the beginning of Minecraft Fitness!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.minecraft.net/en-us/store/minecraft-java-edition"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Click here to download Minecraft: Java Edition and get started today!
         </a>
       </header>
     </div>

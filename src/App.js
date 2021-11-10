@@ -1,22 +1,30 @@
 import './App.css';
+// import { Header, Footer } from './components/header';
+
+// Required Pages
+import { LandingPage } from './components/landing';
+import { LoginPage } from './components/login';
+import { CreateAccount } from './components/createaccount';
+import { InstructorDashboard } from './components/instdash';
+import { ClientDashboard } from './components/clientdash';
+
+// Extra Flavor Pages
+import { CourseCatalog } from './components/coursecatalog';
+import { MeetOurInstructors } from './components/meetourinst';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="../grassblock.png" className="App-logo" alt="logo" />
-        <p>
-          This is the beginning of Minecraft Fitness!
-        </p>
-        <a
-          className="App-link"
-          href="https://www.minecraft.net/en-us/store/minecraft-java-edition"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Click here to download Minecraft: Java Edition and get started today!
-        </a>
-      </header>
+      I am the app container! I begin here.
+      <LandingPage/>
+      <LoginPage/>
+      <CreateAccount/>
+      <InstructorDashboard/>
+      <ClientDashboard/>
+      <CourseCatalog/>
+      <MeetOurInstructors/>
+
+      I am the app container! I end here.
     </div>
   );
 }

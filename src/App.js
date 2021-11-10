@@ -1,5 +1,4 @@
 import './App.css';
-// import { Header, Footer } from './components/header';
 
 // Required Pages
 import { LandingPage } from './components/landing';
@@ -12,6 +11,10 @@ import { ClientDashboard } from './components/clientdash';
 import { CourseCatalog } from './components/coursecatalog';
 import { MeetOurInstructors } from './components/meetourinst';
 
+// Card Imports
+
+import { ClassCard } from './components/cards/classcard';
+
 function App() {
   return (
     <div className="App">
@@ -23,6 +26,8 @@ function App() {
       <ClientDashboard/>
       <CourseCatalog/>
       <MeetOurInstructors/>
+
+      <ClassCard/>
 
       I am the app container! I end here.
     </div>

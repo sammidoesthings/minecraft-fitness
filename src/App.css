@@ -40,3 +40,19 @@
 }
 
 /* ADDED STYLES */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: peachpuff;
+  height: 5vh;
+}
+
+.link-link {
+  color: darkslategrey;
+  text-decoration: none;
+  background-color: papayawhip;
+  height: 3vh;
+  padding: 3px;
+}

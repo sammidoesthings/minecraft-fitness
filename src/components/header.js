@@ -42,7 +42,7 @@ const Header = ()=>{
                     className="link-link">
                     Meet Our Instructors
                 </Link>
-                
+
                 <Link 
                     to="/coursecatalog" 
                     className="link-link">
@@ -57,7 +57,7 @@ const Header = ()=>{
 const Footer = ()=>{
     return (
         <div className="footer-container">
-            <p>I am a footer</p>
+            <p>I am a footer. Links will be added to me after all the routing and authentication is solved.</p>
         {/* DIV CONTAINER ENDS HERE */}
         </div>
     )

@@ -11,25 +11,50 @@ import { ClientDashboard } from './components/clientdash';
 import { CourseCatalog } from './components/coursecatalog';
 import { MeetOurInstructors } from './components/meetourinst';
 
-// Card Imports
-
-import { ClassCard } from './components/cards/classcard';
+// Browser Imports
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      I am the app container! I begin here.
-      <LandingPage/>
-      <LoginPage/>
-      <CreateAccount/>
-      <InstructorDashboard/>
-      <ClientDashboard/>
-      <CourseCatalog/>
-      <MeetOurInstructors/>
+    <div className="app-container">
+      <Routes>
 
-      <ClassCard/>
+        <Route 
+          exact path="/"
+          element={<LandingPage/>}
+        />
 
-      I am the app container! I end here.
+        <Route 
+          path="/login"
+          element={<LoginPage/>}
+        />
+
+        <Route 
+          path="/createaccount"
+          element={<CreateAccount/>}
+        />
+
+        <Route 
+          path="/instdash"
+          element={<InstructorDashboard/>}
+        />
+
+        <Route 
+          path="/clientdash"
+          element={<ClientDashboard/>}
+        />
+
+        <Route 
+          path="/coursecatalog"
+          element={<CourseCatalog/>}
+        />
+
+        <Route 
+          path="/meetourinst"
+          element={<MeetOurInstructors/>}
+        />
+
+      </Routes>
     </div>
   );
 }

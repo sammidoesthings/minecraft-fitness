@@ -56,3 +56,17 @@ nav {
   height: 3vh;
   padding: 3px;
 }
+
+.footer-container {
+  text-align: center;
+  background-color: peachpuff;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container p {
+  background-color: papayawhip;
+  padding: 1px;
+}

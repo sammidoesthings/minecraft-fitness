@@ -1,3 +1,18 @@
+Happy Mining and Crafting!
+
+This is a personal project intended for fun only. The idea is to blend Lambda School's MVP requirements for their "Anywhere Fitness" build week assignment, and a love for mining and crafting.
+
+Here is my lucid chart / scaffolding: https://lucid.app/lucidchart/fccc7ec6-f346-4ddb-9717-6e36fc366afd/edit?page=0_0&invitationId=inv_40f5d05a-2912-49b8-aec2-8373d72816aa#
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
